@@ -1,0 +1,58 @@
+body {
+    background: #040404;
+    color: #d7d9ce;
+    margin: 0%;
+}
+
+#foto-perfil {
+    border-radius: 50%;
+}
+
+#proyecto1 {
+    background-image: url('/assets/proyecto1.png');
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#proyecto2 {
+    background-image: url('/assets/proyecto2.png');
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#proyecto3 {
+    background-image: url('/assets/proyecto3.png');
+    background-size: cover;
+    opacity: 0.9;
+}  
+
+.icon {
+    color: azure;
+}
+
+h1,h3{
+    color: #119da4;
+}
+
+a{
+    text-decoration: none;
+    color: #d7d9ce;
+}
+
+.d-flex {
+    display: flex!important;
+    align-items: flex-end;
+}
+
+.texto{
+    background-color: #d7d9ce;
+    opacity: 0.8;
+}
+
+.row {
+    margin-right: calc(0 * var(--bs-gutter-x)); 
+    margin-left: calc(0 * var(--bs-gutter-x)); 
+}
+
+
+

@@ -1,205 +1,262 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elsy Noh</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        </ul>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#perfil" class="nav-link" aria-current="page">Elsy Noh</a>
+        </li>
+        <li class="nav-item">
+          <a href="#habilidades" class="nav-link">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a href="#proyectos" class="nav-link">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#testimonios" class="nav-link">Testimonios</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contactame" class="nav-link">Contactame</a>
+        </li>
+      </ul>
     </header>
 
     <main>
+      <section id="perfil" class="px-4 py-5 my-5 text-center">
 
-        <section id="perfil" class="px-4 py-5 my-5 text-center">
-            <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72"
-                height="57">
-            <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
-                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-                </div>
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img id="foto-perfil" src="/assets/foto-perfil.jpeg" class="d-block mx-lg-auto img-fluid" alt="Foto de perfil" width="500" height="500" loading="lazy">
             </div>
-        </section>
-
-        <section id="habilidades" class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#collection"></use>
-                    </svg>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and
-                    probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg>
-                </a>
-            </div>
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#people-circle"></use>
-                    </svg>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and
-                    probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg>
-                </a>
-            </div>
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#toggles2"></use>
-                    </svg>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and
-                    probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg>
-                </a>
-            </div>
-        </section>
-
-        <section id="proyectos" class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-
-            <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                    style="background-image: url('unsplash-photo-1.jpg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                    class="rounded-circle border border-white">
-                            </li>
-                            <li class="d-flex align-items-center me-3">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#geo-fill"></use>
-                                </svg>
-                                <small>Earth</small>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#calendar3"></use>
-                                </svg>
-                                <small>3d</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-lg-6">
+              <h1 id="titulo" class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+              <p class="fs-5 mb-4">
+                Ingeniera en Entornos
+                Virtuales y Negocios Digitales. Mi enfoque abarca desde la
+                programación web y el desarrollo de videojuegos hasta el modelado
+                3D.
+              </p>
+              <p class="fs-5 mb-4">
+                Más allá de la pantalla, me encuentras inmersa en la música,
+                explorando nuevas notas. Además, el cine de terror y el arte son
+                mis fuentes constantes de inspiración.
+              </p>
+              <p class="fs-5 mb-4">¡Bienvenid@ a mi mundo digital y más allá!</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">
+                  <a href="mailto:elsynoh11@gmail.com?subject=Consulta%20de%20Contacto" class="text-white" target="_blank" rel="noopener noreferrer">Contáctame</a>
+                </button>
+              </div>
             </div>
 
-            <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                    style="background-image: url('unsplash-photo-2.jpg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines
-                        </h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                    class="rounded-circle border border-white">
-                            </li>
-                            <li class="d-flex align-items-center me-3">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#geo-fill"></use>
-                                </svg>
-                                <small>Pakistan</small>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#calendar3"></use>
-                                </svg>
-                                <small>4d</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        </div>
+   
+
+        <!--
+        <div class="py-5">
+          <img
+            id="foto-perfil"
+            class="d-block mx-auto mb-4"
+            src="/assets/foto-perfil.jpeg"
+            alt="perfil"
+            width="200"
+            height="200"
+          />
+          <h1 id="titulo"  class="display-5 fw-bold"></h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">
+              Ingeniera en Entornos
+              Virtuales y Negocios Digitales. Mi enfoque abarca desde la
+              programación web y el desarrollo de videojuegos hasta el modelado
+              3D.
+            </p>
+            <p class="fs-5 mb-4">
+              Más allá de la pantalla, me encuentras inmersa en la música,
+              explorando nuevas notas. Además, el cine de terror y el arte son
+              mis fuentes constantes de inspiración.
+            </p>
+            <p class="fs-5 mb-4">¡Bienvenid@ a mi mundo digital y más allá!</p>
+
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">
+                <a href="mailto:elsynoh11@gmail.com?subject=Consulta%20de%20Contacto" class="text-white" target="_blank" rel="noopener noreferrer">Contáctame</a>
+              </button>
             </div>
+          </div>
+        </div>
+     -->
 
-            <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                    style="background-image: url('unsplash-photo-3.jpg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                    class="rounded-circle border border-white">
-                            </li>
-                            <li class="d-flex align-items-center me-3">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#geo-fill"></use>
-                                </svg>
-                                <small>California</small>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#calendar3"></use>
-                                </svg>
-                                <small>5d</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      </section>
+
+      <section id="habilidades">
+        <h2 class="text-center">HABILIDADES</h2>
+
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg- fs-2 mb-3"
+            >
+              <i class="bi bi-people-fill fs-2 mb-3 icon"></i>
             </div>
+            <h3 class="fs-3">Trabajo en equipo</h3>
+            <p>
+              Excelente comunicación, adaptabilidad y disposición para
+              contribuir al logro de metas conjuntas, aprovechando las
+              habilidades individuales para fortalecer el equipo.
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg- fs-2 mb-3"
+            >
+              <i class="bi bi-person-lines-fill fs-2 mb-3 icon"></i>
+            </div>
+            <h3 class="fs-3">Autoaprendizaje</h3>
+            <p>
+              Actitud de constante mejora, demostrando la habilidad de
+              identificar oportunidades de aprendizaje y aplicarlas de manera
+              eficiente en entornos laborales dinámicos.
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3"
+            >
+              <i class="bi bi-journal-check fs-2 mb-3 icon"></i>
+            </div>
+            <h3 class="fs-3">Calidad y Precisión</h3>
+            <p>
+              Atención meticulosa a los detalles para lograr resultados precisos
+              y satisfacer las expectativas del cliente o del equipo.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <section id="proyectos">
+        <h2 class="text-center">PROYECTOS</h2>
 
-        <section id="testimonios">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              id="proyecto1"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3
+                  class="mt-5 mb-4 display-6 lh-1 text-black text-center texto"
+                >
+                  Clon de Google
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <button class="btn btn-dark" type="button">
+                      <a
+                        href="https://google-clon-elsy.netlify.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-arrow-up-right-circle icon"></i> Ir</a
+                      >
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-        </section>
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              id="proyecto2"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3
+                  class="mt-5 mb-4 display-6 lh-1 text-black text-center texto"
+                >
+                  Recorrido en RV
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <button class="btn btn-dark" type="button">
+                      <a
+                        href="https://youtu.be/cB_-K2CiGvY"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-arrow-up-right-circle icon"></i> Ir</a
+                      >
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              id="proyecto3"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3
+                  class="mt-5 mb-4 display-6 lh-1 text-black text-center texto"
+                >
+                  Pizza Planeta
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <button class="btn btn-dark" type="button">
+                      <a
+                        href="https://pizza-planeta.netlify.app/home"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-arrow-up-right-circle icon"></i> Ir</a
+                      >
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="contactame">
+      <section id="testimonios">Testimonio</section>
 
-        </section>
-
+      <section id="contactame">Contactame</section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <footer id="footer" class="py-3 my-4">
+      <p class="nav justify-content-center border-bottom pb-3 mb-3"></p>
+      <p class="text-center">© 2023 Elsy Noh</p>
+    </footer>
 
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
+  </body>
 </html>
