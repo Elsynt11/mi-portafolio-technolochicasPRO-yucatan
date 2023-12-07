@@ -54,5 +54,28 @@ a{
     margin-left: calc(0 * var(--bs-gutter-x)); 
 }
 
+.pb-3 {
+    padding-top: 6rem!important;
+}
+
+
+
+
+.nav-link{
+    color: #d7d9ce;
+}
+
+.navbar-toggler{
+    color:  #d7d9ce;
+    border: .5px solid rgb(255 253 253);
+}
+
+
+.nav-item :hover  {
+    color: #119da4;
+}
+
+
+
 
 
