@@ -60,7 +60,6 @@ a{
 
 
 
-
 .nav-link{
     color: #d7d9ce;
 }
@@ -76,6 +75,55 @@ a{
 }
 
 
+/*testimonios*/
+
+.card-carrusell 
+{
+    background-color: #040404;
+    color: #D7D9CE;
+    width: 25rem; 
+    height: 22rem;
+    margin-bottom: 1.5rem!important;
+    margin-top: 1.5rem!important;
+    border: 1px solid #0C7489;
+}
+
+.blockquote-footer
+{
+    color: #D7D9CE;
+}
+
+
+.txt-card {
+    font-size: 13px;
+}
+
+.owl-item {
+    transition: transform 1.5s;
+}
+
+.owl-item.center {
+    transform: scale(1.1);
+}
+
+.owl-item.left, .owl-item.right {
+    transform: scale(0.9);
+}
+
+.item{
+    display: grid;
+    justify-items: center;
+}
+
+
+/*Adaptarse en movil*/
+@media (max-width: 768px) {
+    .card-carrusell 
+    {
+        width:20rem; 
+        height: 26rem;
+    }
+}
 
 
 
