@@ -9,19 +9,19 @@ body {
 }
 
 #proyecto1 {
-    background-image: url('/assets/proyecto1.png');
+    background-image: url('/assets/images/proyecto1.png');
     background-size: cover;
     opacity: 0.9;
 }
 
 #proyecto2 {
-    background-image: url('/assets/proyecto2.png');
+    background-image: url('/assets/images/proyecto2.png');
     background-size: cover;
     opacity: 0.9;
 }
 
 #proyecto3 {
-    background-image: url('/assets/proyecto3.png');
+    background-image: url('/assets/images/proyecto3.png');
     background-size: cover;
     opacity: 0.9;
 }  
@@ -79,13 +79,13 @@ a{
 
 .card-carrusell 
 {
-    background-color: #040404;
+    background-color: #202121;
     color: #D7D9CE;
     width: 25rem; 
     height: 22rem;
     margin-bottom: 1.5rem!important;
     margin-top: 1.5rem!important;
-    border: 1px solid #0C7489;
+    border: 1px solid #119DA4;
 }
 
 .blockquote-footer
@@ -104,6 +104,7 @@ a{
 
 .owl-item.center {
     transform: scale(1.1);
+    
 }
 
 .owl-item.left, .owl-item.right {
@@ -125,5 +126,33 @@ a{
     }
 }
 
+/*modelos*/
 
+.modelos {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
 
+.modelos > p {
+    font-size: 13px; 
+    font-weight: normal; 
+    margin: 5px; 
+    color: #4A4A4A;
+}
+
+.modelos > p > a{
+    font-weight: bold; 
+    color: #119da4;
+    cursor: pointer;
+}
+
+.modelos > iframe{
+    width: 450px; 
+    height: 250px;
+}
+
+.icono-contacto {
+    width: 30px;
+    height: 30px;
+}

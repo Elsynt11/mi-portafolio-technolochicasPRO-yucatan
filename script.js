@@ -26,10 +26,16 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 4570,
     responsive: {
       0: {
         items: 1,
+      },
+      700: {
+        items: 1,
+      },
+      1100: {
+        items: 3,
       },
       600: {
         items: 3,
