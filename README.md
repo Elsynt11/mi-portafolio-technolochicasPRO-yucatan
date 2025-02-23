@@ -12,7 +12,9 @@ JS
 
 # Contacto
 
-Si estás interesado/a en colaborar con proyectos, oportunidades laborales e iniciativas, contáctame
+Si estás interesado/a en colaborar con proyectos, oportunidades laborales e iniciativas, contáctame.
+
+Link del proyecto: https://elsy-portafolio.netlify.app/
 
 © 2023 Elsy Noh | Elsynt11 | (Programa Technolochicas PRO)
 
